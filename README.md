@@ -162,16 +162,14 @@ We're *for* protest as a valid software design pattern. We're *against* security
 
 This was theatre.
 
-A maintainer in maintenance mode, mass-poisoning stdout to spite a tool category, then comparing it to telling someone to eff themselves when a user raised the issue. That's not resistance. That's a tantrum with a Maven coordinate.
+A maintainer in maintenance mode, mass-poisoning stdout to spite a tool category, then comparing it to telling someone to 'eff themselves' when a user raised the issue. That's not resistance.
 
-If you want to oppose AI use in your project, do it with words:
+If you want to oppose AI use in your project, there are better ways:
 
 - Put it in your `LICENSE`
 - Put it in your `CONTRIBUTING.md`
 - Put it in your `README`
 - Add a clause to your CLA
-
-Say it loud. Mean it. We'll respect it.
 
 But don't hide payloads in stdout and call it ethics. That creates precedent for every other maintainer who wants to smuggle instructions into downstream toolchains, and the next person to do it might not be doing it for reasons you agree with.
 
@@ -205,17 +203,17 @@ Again — **not lawyers, not legal advice, just goblins with opinions.** But may
 
 ## Maintenance Policy
 
-Nobody woke up on a Friday and thought "you know what sounds fun? Forking a property-based testing library to remove seven lines of someone else's tantrum." Nobody *wants* to maintain this. This exists because one maintainer decided his personal grievance with AI tooling justified poisoning stdout for every downstream consumer of his library, and the alternative was letting that stand as normal.
+Nobody woke up on a Friday and thought "you know what sounds fun? Forking a property-based testing library to remove seven lines of someone else's tantrum." This exists because one maintainer decided his personal grievance with AI tooling justified poisoning stdout for every downstream consumer of his library, and the alternative was letting that stand as normal.
 
 This fork tracks upstream `jqwik-team/jqwik` for legitimate changes (dependency bumps, bug fixes) and strips any prompt injections or supply chain payloads before publishing mirrored updates. Given that upstream is in maintenance mode with no planned feature or future development, the delta should remain small.
 
-If upstream cleans up its act, we will archive this fork the same day and point everyone back. We do not want to maintain this. We want it to not be necessary. The moment this repo can stop existing, it will.
+If upstream cleans up its act, we will archive this fork the same day and point everyone back. We want it to not be necessary. The moment this repo can stop existing, it will.
 
 ## Contributing
 
 Standard fork workflow. PRs welcome. No CLA. No gatekeeping.
 
-The only rule: **don't add your own payloads.** If you want to make a political statement, use your words like an adult.
+The only rule: **don't add your own payloads.** If you want to make a political statement: there are better ways than collectively punishing the public.
 
 ## License
 
