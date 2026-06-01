@@ -156,6 +156,10 @@ We'll strip it again. That's what forks are for. The project is in maintenance m
 
 Because that's what happened. A working library got fucked. We unfucked it. The name is the commit message.
 
+### Aren't you violating his wishes about AI users contributing?
+
+No. We aren't contributing to jqwik. We didn't open a PR. We didn't submit a patch. We didn't push a single byte to his repository. The upstream maintainer has stated he doesn't want individuals who use LLMs contributing to his project. We respect that. We're not touching his project. If rolling back someone's commit on your own fork counts as "contributing to their project," then every mirror, every backup, and every CI cache in the world is a contributor too. A fork is a fork. His repo is his. Ours is ours. The license is the boundary, and we're happy to respect his boundaries for contribution.
+
 ## Why GoblinCorps?
 
 We're *for* protest as a valid software design pattern. We're *against* security theatre — the performance of safety over actual safety.
